@@ -1,0 +1,125 @@
+.image {
+  background-image: url("../images/HH3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+   min-height: 300px;
+}
+
+ .image1 {
+   background-image: url("../images/HH9.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    min-height: 300px;
+}
+
+.image2 {
+  background-image: url("../images/HH2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image3 {
+  background-image: url("../images/HH7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image4 {
+  background-image: url("../images/HH8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image5 {
+  background-image: url("../images/HH6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image6 {
+  background-image: url("../images/HH5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image7 {
+  background-image: url("../images/HH4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7 {
+  position: relative;
+  /* opacity: 0.65; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: blue;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* .topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+} */
+
+.hub {
+  text-align: center;
+}
+
+.board{
+  font-size: 40px;
+  /* font-color: white;
+  background-color: black; */
+}
+
+.hosi{
+  /* text-align: center; */
+  font-size: 20px;
+}
+
+div #mission{
+  border-color: blue;
+  border-width: 200px;
+  border: solid;
+  border-radius: 10px;
+  height: 200px;
+}
+
+div #vision{
+  border-color: blue;
+  border-width: 200px;
+  border: solid;
+  border-radius: 10px;
+  height: 200px;
+}
