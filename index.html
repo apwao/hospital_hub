@@ -10,6 +10,12 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+    integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <title>Hospital Hub</title>
 </head>
 
@@ -17,9 +23,10 @@
     <div class="img1">
         <nav>
             <ul>
-                <li><a href="home">HOME</a></li>
-                <li><a href="about">ABOUT</a></li>
-                <li><a href="contacts">CONTACTS</a></li>
+                <li><a href="#home"><i class="fa fa-home"></i>HOME</a></li>
+                <li><a href="#about"><i class="fa fa-heartbeat"></i>ABOUT</a></li>
+                <li><a href="#contact"><i class="fa fa-phone-square"></i>CONTACTS</a></li>
+                <li><a href="#v&m"><i class='fas fa-eye'></i>VISION</a></li>
             </ul>
         </nav>
         <div class="slideup">
@@ -27,40 +34,50 @@
             <Span class="int">HOSPITAL HUB</Span>
         </div>
     </div>
-
+    <div class="section2" id="login"></div>
     <div class="container">
-
-        <div class="inner">
-            <h1>Already have an account Login Here.</h1>
-            Username <input type="text" class="txt" placeholder="user name" id="txt" /><br /><br />
-            Password <input type="password" class="pass" placeholder="password" /><br /><br />
-
-            <input type="button" class="buton" onClick="window.location ='?';" value="login" id="buton" />
+        <div class="row">
+            <div class="col-md-0.5"></div>
+            <div class="col-md-3" id="log">
+                <h1>Already have an account Login Here.</h1>
+                Username: <input type="text" class="txt" placeholder="user name" id="txt" /><br /><br />
+                Password: <input type="password" class="pass" placeholder="password" /><br /><br />
+                <input type="button" class="buton" onClick="window.location ='?';" value="login" id="buton" />
+            </div>
+        
+            <div class="col-md-1"></div>
+            <div class="col-md-3" id="reg">
+                <br><button class="tablinks" onclick="openCity(event, 'register')">Register Your Hospital</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3" id="src">
+                <button class="tablinks" onclick="openCity(event, 'Search')">Search Hospital</button>
+            </div>
         </div>
-    </div><br><br>
-
-    <button class="tablinks" onclick="openCity(event, 'register')">Register Your Hospital</button>
-    <button class="tablinks" onclick="openCity(event, 'Search')">Search Hospital</button>
-
-
+            <div class="col-md-1"></div>
+        </div>
+    </div>
     <div class="img2">
-
+        
+            <div class="caption">
+                <span class="border">ABOUT</span>
+            </div>
+        
     </div>
-
-    <h1>ABOUT</h1>
-
-
+    <div class="section3" id="about">
+    <h2>ABOUT</h2>
+    </div>
     <div class="img3">
-        <div class="slideup">
-
-        <h2>VISION & MISSION</h2>
+        <div class="section4" id="v&m">
+        <div class="caption">
+            <span class="border">VISION</span>
         </div>
-
+        </div>
     </div>
-    <div class="slideup">
+    </div> 
+    <div class="section5" id="contact">
     <h3>CONTACT US</h3>
     </div>
-
 
 </body>
 
