@@ -7,21 +7,9 @@
     font-size: 34px;
     color: aliceblue
     float:right;
+    background-color: darkslategray;
     
 }
-.icon {
-    padding: 10px;
-    background: dodgerblue;
-    color: white;
-    min-width: 50px;
-    text-align: center;
-  }
-  .input-container {
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    margin-bottom: 15px;
-  }
   #columns{
       font-size: 20px;
   }
@@ -29,6 +17,68 @@
       position: relative;
       top: 100px;
   }
-  #backstyle{
-      background-color: rgb(0,139,139);
+  #hname{
+      padding: 10px;
+  }
+  h1{
+    font-family: 'Jura', sans-serif;
+    color: cyan;
+  }
+  #regtab{
+      border: solid darkslategray;
+      background-color: darkslategray;
+      opacity:0.5;
+      width: 70%;
+      position: relative;
+      left: 30px;
+      top: 50px;
+      font-size: 12px;
+      color: cyan;
+  }
+  #back{
+      height: 450px;
+      width: 600px;
+      background-color: darkslategray;
+      opacity: 0.8;
+      padding: 20px;
+      position: relative;
+      border-radius: 12px;
+
+
+  }
+  #registerbtn{
+      float: right;
+  }
+  /*navigation bar*/
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+    width: 750px;
+  }
+   li{
+    float: left;
+    display: block;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  li a{
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: darkslategray;
+      padding: 14px 16px;
+  }
+  li a: hover{
+      background-color: darkslategray;
+  }
+  .active{
+      background-color: darkslategray;
+      color: cyan;
+  }
+  ul li{
+      width: 155px;
   }
