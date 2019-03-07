@@ -2,7 +2,7 @@
   background-image: url("../images/HH3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-   min-height: 300px;
+   min-height: 500px;
 }
 
  .image1 {
@@ -23,35 +23,35 @@
   background-image: url("../images/HH7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .image4 {
   background-image: url("../images/HH8.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .image5 {
   background-image: url("../images/HH6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .image6 {
   background-image: url("../images/HH5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .image7 {
   background-image: url("../images/HH11.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .image1, .image2, .image3, .image4, .image5, .image6, .image7 {
@@ -68,7 +68,7 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.topnav {
+/* .topnav {
   overflow: hidden;
   background-color: blue;
 }
@@ -90,4 +90,53 @@ body, html {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+} */
+
+nav ul {
+      float: left;
+      list-style-type: none;
+      width: 300px;
+      text-align: center;
+      }
+a {
+     color: black;
+     line-height: 60px;
+     font-size: 1.2em;
+      }
+a:hover {
+      background-color: black;
+      color: whitesmoke;
+    }
+nav ul {
+     width: 800px;
+     height: 60px;
+     margin: 0 auto;
+     }
+
+#paul {
+  font-size: 30px;
+  color: cyan
+  border: solid darkslategray;
+  background-color: darkslategray;
+  opacity: 0.95;
+  width: 70%;
+  border-radius: 20px;
+
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.caption, .boarder {
+  background-color: black;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
