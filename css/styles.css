@@ -32,6 +32,11 @@ body, html{
       min-height: 400px;
       margin-bottom: 15px;
 }
+img {
+     border: solid white 1px;
+     padding: 4px;
+
+}
 @keyframes slide_up {
   0%{
     transform: translatey(250px);
@@ -137,11 +142,12 @@ nav ul {
      
 }
 
-h2, h3{
+h1, h2, h3, h4, h5{
      text-align: center;
      font-size: 16px;
       font-family: 'Josefin Slab', serif;
       color: black;
+      font-weight: bold;
      
 }
    p{
@@ -154,7 +160,9 @@ h2, h3{
     .cnt{
         background-color: #aa4b6b;
         min-height: 70%;
-        margin-top: 24%;
+        
         
    }
-     
+     .section5{
+          margin-top: 20%;
+     }
