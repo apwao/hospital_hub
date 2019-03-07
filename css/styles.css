@@ -191,4 +191,84 @@ hr{
     color: cyan;
 }
 
-  
+.image1 {
+  background-image: url("../img/hos2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: : 300px;
+}
+
+.image2 {
+  background-image: url("../img/hos2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image3 {
+  background-image: url("../img/hos6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image4 {
+  background-image: url("../img/hos6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image5 {
+  background-image: url("../img/hos5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image6 {
+  background-image: url("../img/hos5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* h3, #title{
+  color: #00BFFF;
+  font-size: 80px;
+} */
+
+#uno {
+  font-size: 30px;
+  color: cyan;
+  border: solid darkslategray;
+  background-color: darkslategray;
+  opacity: 0.8;
+  width: 70%;
+  border-radius: 20px;
+}
+
+.cap {
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.cap .boarder {
+  background-color: black;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+} */
