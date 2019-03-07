@@ -30,6 +30,7 @@ body, html{
       /*background-repeat: no-repeat;*/
       /*background-size: cover;*/
       min-height: 400px;
+      margin-bottom: 15px;
 }
 @keyframes slide_up {
   0%{
@@ -65,48 +66,53 @@ nav ul {
      height: 60px;
      margin: 0 auto;
      }
-.tablinks{
+.btn{
        position: absolute;
-       top:130px;
-       margin-bottom: 1.5px;
-       background-color:rgb(19, 59, 168); 
+       top:250px;
+       margin-bottom: 3px;
+       background-color:black; 
        color: whitesmoke;
        border: none;
      }
      
 
 #log{
-     border: solid #00B4DB;
+     background-color: gray;
      margin-top: 30px;
      margin-bottom: 50px;
      padding: 10px;
-     color: rgb(19, 59, 168);
+     color: black;
+     border: solid black 1px;
 }
 #log h1 {
-  color: rgb(19, 59, 168);
+  color: black;
   font-size: 18px;
 }
 #buton{
-  background-color: rgb(19, 59, 168);
+  background-color: black;
   color: whitesmoke;
   border: none;
 }
 #reg{
-    border:solid #00B4DB;
+    border:none;
+    background-color: grey;
     margin-top: 90px;
     margin-bottom: 15px;
     padding: 10px;
+     border: solid black 1px;
 }
 #src{
-     border:solid #00B4DB;
+     border:none;
+     background-color: grey;
      margin-top: 110px;
      margin-bottom: 0.1px;
      padding: 10px;
+      border: solid black 1px;
 }
 .row{
      display: flex;
      padding: 10px;
-     margin-top: 50px;
+     margin-top: 10px;
      margin-bottom: 40px;
      position: relative;
 
@@ -116,10 +122,11 @@ nav ul {
 .caption{
      position: absolute;
      left:0;
-     top:50%;
+     top:20%;
      width:100%;
      text-align: center;
      color:black;
+     
 }
 .caption .border{
      background-color: black;
@@ -127,12 +134,27 @@ nav ul {
      padding: 18px;
      font-size: 25px;
      letter-spacing: 10px;
+     
 }
 
 h2, h3{
      text-align: center;
      font-size: 16px;
-     font-style: italic;
+      font-family: 'Josefin Slab', serif;
+      color: black;
+     
 }
-         
+   p{
+        text-align: center;
+        margin: 0 0 10px;
+        font-size: 1.7em;
+      font-family: 'Josefin Slab', serif;
+      color:black;
+   }   
+    .cnt{
+        background-color: #aa4b6b;
+        min-height: 70%;
+        margin-top: 24%;
+        
+   }
      

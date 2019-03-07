@@ -12,10 +12,10 @@
     <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
-    integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+
     <title>Hospital Hub</title>
 </head>
 
@@ -39,45 +39,88 @@
         <div class="row">
             <div class="col-md-0.5"></div>
             <div class="col-md-3" id="log">
+                <img src="images/small33.jpeg">
                 <h1>Already have an account Login Here.</h1>
-                Username: <input type="text" class="txt" placeholder="user name" id="txt" /><br /><br />
-                Password: <input type="password" class="pass" placeholder="password" /><br /><br />
+                <form>
+                    <!--Username: <input type="text" class="txt" placeholder="user name" id="txt" /><br /><br />-->
+                    <!--Password: <input type="password" class="pass" placeholder="password" /><br /><br />-->
+                    <div class="input-group">
+
+                        <input type="name" class="form-control" name="--Username" placeholder="Username"><br><br>
+                        <input type="name" class="form-control" name="--Password" placeholder="password">
+
+                    </div>
+                </form><br>
                 <input type="button" class="buton" onClick="window.location ='?';" value="login" id="buton" />
             </div>
-        
+
             <div class="col-md-1"></div>
             <div class="col-md-3" id="reg">
-                <br><button class="tablinks" onclick="openCity(event, 'register')">Register Your Hospital</button>
+                <img src="images/small22.png">
+                <br><button class="btn" onclick="openCity(event, 'register')">Register Your Hospital</button>
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-3" id="src">
-                <button class="tablinks" onclick="openCity(event, 'Search')">Search Hospital</button>
+                <img src="images/small11.jpg"><br><br><br>
+                <button class="btn" onclick="openCity(event, 'Search')">Search Hospital</button>
             </div>
-        </div>
+
             <div class="col-md-1"></div>
         </div>
     </div>
+    <!--</div>-->
     <div class="img2">
-        
-            <div class="caption">
-                <span class="border">ABOUT</span>
-            </div>
-        
+
+        <div class="caption">
+            <span class="border">ABOUT</span>
+        </div>
+
     </div>
     <div class="section3" id="about">
-    <h2>ABOUT</h2>
+        <h2>ABOUT</h2>
     </div>
+    <p>Hospital Hub is designed to increase efficiency in accessing medical services.</p>
+    <p>Vital information on the emergency preparedness of each hospital at given</p>
+    <p>moment in order to help paramedics and any other person to make an </p>
+    <p>informed decision on where to take victims.This reduces the</p>
+    <p>likelihood of a patient being turned away over and over</p>
+    <p>as a result, losing their lives.</p>
+
     <div class="img3">
         <div class="section4" id="v&m">
-        <div class="caption">
-            <span class="border">VISION</span>
-        </div>
+            <div class="caption">
+                <span class="border">VISION</span>
+                <br><br><br><br><br>
+                <p>To bring choice of medical services for patients and their families</p>
+                <p>that is readily accessible, cost effective and meets the needs</p>
+                <p>of the communities we serve.</p>
+
+            </div>
         </div>
     </div>
-    </div> 
-    <div class="section5" id="contact">
-    <h3>CONTACT US</h3>
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+    <img src="images/hrt2.png">
     </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+    <img src="images/icon.jpeg">
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3"><br>
+    <img src="images/store.png">
+    </div>
+
+    <div class="cnt">
+        <div class="section5" id="contact">
+            <h3>CONTACT US</h3>
+        </div>
+        
+        <p><i class="fa fa-map-marker"></i>Nairobi,Kenya.</p>
+        <p><i class="fa fa-phone-square"></i>Phone:+25412345678</p>
+        <p><i class="fa fa-envelope"></i>Email:hospitalhub@gmail.com</p>
+    </div>
+
 
 </body>
 
