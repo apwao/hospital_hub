@@ -5,7 +5,7 @@
 }
 .gyphicon{
     font-size: 34px;
-    color: aliceblue
+    color: aliceblue;
     float:right;
     background-color: darkslategray;
     
@@ -20,7 +20,7 @@
   #hname{
       padding: 10px;
   }
-  h2{
+  h2, #reg{
     font-family: 'Jura', sans-serif;
     color: cyan;
   }
@@ -48,8 +48,9 @@
       border-bottom-right-radius: 30px; 
 
   }
-  #registerbtn{
+  .btn, #registerbtn{
       float: right;
+      color: darkslategray;
   }
   /*navigation bar*/
   ul {
@@ -69,9 +70,10 @@
       display: block;
       text-align: center;
       text-decoration: none;
-      color: darkslategray;
+      color: black;
       padding: 14px 16px;
       line-height: 60px;
+      text-decoration: none;
   }
   ul li{
       width: 160px;
@@ -175,7 +177,7 @@
     width:600px;
     height:150px;
     background-color: darkslategray;
-    opacity: 0.7;
+    opacity: 0.7s;
     color: cyan;
     border-top-left-radius: 30px; 
     border-bottom-right-radius: 30px;

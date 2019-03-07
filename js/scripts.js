@@ -46,7 +46,7 @@ var facility_functional = $("input:radio[name=dept_present]:checked").val();
 $(document).ready(function(event){
     event.preventDefault();
     $("form #next").click(function(){
-        $.("services.html .sth #sth1").append();
+        $.("services.html .sth #sth1").append(haemoglobin);
 
     })
 })
