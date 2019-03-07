@@ -1,4 +1,5 @@
-body, html{
+
+body, #body, html{
        height: 100%;
        margin:0;
        font-family: 'EB Garamond', serif;
@@ -98,7 +99,7 @@ nav ul {
   color: whitesmoke;
   border: none;
 }
-#reg{
+#regg{
     border:none;
     background-color: grey;
     margin-top: 90px;
@@ -114,13 +115,12 @@ nav ul {
      padding: 10px;
       border: solid black 1px;
 }
-.row{
+.row #row{
      display: flex;
      padding: 10px;
      margin-top: 10px;
      margin-bottom: 40px;
      position: relative;
-
 
 }
 
@@ -142,7 +142,7 @@ nav ul {
      
 }
 
-h1, h2, h3, h4, h5{
+h1, h2 ,#h2  , h3, h4, h5{
      text-align: center;
      font-size: 16px;
       font-family: 'Josefin Slab', serif;
@@ -151,18 +151,18 @@ h1, h2, h3, h4, h5{
      
 }
    p{
-        text-align: center;
-        margin: 0 0 10px;
-        font-size: 1.7em;
+     text-align: center;
+      margin: 0 0 10px;
+      font-size: 1.7em;
       font-family: 'Josefin Slab', serif;
       color:black;
    }   
-    .cnt{
+.cnt{
         background-color: #aa4b6b;
         min-height: 70%;
         
         
    }
-     .section5{
+ .section5{
           margin-top: 20%;
      }
