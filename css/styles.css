@@ -48,7 +48,7 @@
 }
 
 .image7 {
-  background-image: url("../images/HH4.jpeg");
+  background-image: url("../images/HH11.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 300px;
@@ -56,7 +56,6 @@
 
 .image1, .image2, .image3, .image4, .image5, .image6, .image7 {
   position: relative;
-  /* opacity: 0.65; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,38 +87,7 @@ body, html {
   color: black;
 }
 
-/* .topnav a.active {
+.topnav a.active {
   background-color: #4CAF50;
   color: white;
-} */
-
-.hub {
-  text-align: center;
-}
-
-.board{
-  font-size: 40px;
-  /* font-color: white;
-  background-color: black; */
-}
-
-.hosi{
-  /* text-align: center; */
-  font-size: 20px;
-}
-
-div #mission{
-  border-color: blue;
-  border-width: 200px;
-  border: solid;
-  border-radius: 10px;
-  height: 200px;
-}
-
-div #vision{
-  border-color: blue;
-  border-width: 200px;
-  border: solid;
-  border-radius: 10px;
-  height: 200px;
 }
