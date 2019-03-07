@@ -1,5 +1,6 @@
 body {
   font-family: 'Permanent Marker', cursive;
+  text-align: center;
 }
 
 .image1 {
@@ -52,6 +53,34 @@ body {
   background-size: cover;
 }
 
-body {
+h2 {
+  color: #00BFFF;
+  font-size: 80px;
+}
+
+#uno {
+  font-size: 30px;
+  color: cyan;
+  border: solid darkslategray;
+  background-color: darkslategray;
+  opacity: 0.8;
+  width: 70%;
+  border-radius: 20px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width: 100%;
   text-align: center;
+  color: black;
+}
+
+.caption .border {
+  background-color: black;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
