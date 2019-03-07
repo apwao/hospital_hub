@@ -73,23 +73,16 @@
       padding: 14px 16px;
       line-height: 60px;
   }
-  li a: hover{
-      background-color: darkslategray;
-  }
-  .active{
-      background-color: darkslategray;
-      color: cyan;
-  }
   ul li{
       width: 160px;
   }
   .pager{
       padding: 0;
   }
-  #backstyle{
-      opacity: 0.8;
+  /* #backstyle{
+      opacity: 0.2;
       color: darkslategray;
-  }
+  }  */
   #lab{
     width:600px;
     height:325px;
@@ -101,7 +94,7 @@
     font-family: 'Jura', sans-serif;
 }
   }
-  #labtitle{
+  h2 #labtitle{
       padding-left: 200px;
       font-family: 'Jura', sans-serif;
   }
@@ -118,7 +111,7 @@
     font-family: 'Jura', sans-serif;
 }
   #radtitle{
-    padding-left: 200px;
+    padding-left: 100px;
     font-family: 'Jura', sans-serif;
 }
     #fielmds{
@@ -182,12 +175,18 @@
     width:600px;
     height:150px;
     background-color: darkslategray;
-    opacity: 0.6;
+    opacity: 0.7;
     color: cyan;
     border-top-left-radius: 30px; 
     border-bottom-right-radius: 30px;
     font-family: 'Jura', sans-serif;   
 }  
   }
+form #next{
+    text-decoration: none;
+}
+hr{
+    color: cyan;
+}
 
   
