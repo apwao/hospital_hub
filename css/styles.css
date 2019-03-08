@@ -1,6 +1,194 @@
-body, #bdy{
-  font-family: 'Permanent Marker', cursive;
-  text-align: center;
+.bckimg{
+    background-image: url("../images/syringe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gyphicon{
+    font-size: 34px;
+    color: aliceblue;
+    float:right;
+    background-color: darkslategray;
+    
+}
+  #columns{
+      font-size: 20px;
+  }
+  #reg{
+      position: relative;
+      top: 100px;
+  }
+  #hname{
+      padding: 10px;
+  }
+  h2, #reg{
+    font-family: 'Jura', sans-serif;
+    color: cyan;
+  }
+
+  #regtab{
+      border: solid darkslategray;
+      background-color: darkslategray;
+      opacity:0.5;
+      width: 70%;
+      position: relative;
+      left: 30px;
+      top: 50px;
+      font-size: 12px;
+      color: cyan;
+  }
+  #back{
+      height: 450px;
+      width: 600px;
+      background-color: darkslategray;
+      opacity: 0.8;
+      padding: 20px;
+      position: relative;
+      bottom: 60px;
+      border-top-left-radius: 30px; 
+      border-bottom-right-radius: 30px; 
+
+  }
+  .btn, #registerbtn{
+      float: right;
+      color: darkslategray;
+  }
+  /*navigation bar*/
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+    width: 750px;
+    height: 80px;
+  }
+   li{
+    float: left;
+    display: block;
+  }
+  li a{
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      padding: 14px 16px;
+      line-height: 60px;
+      text-decoration: none;
+  }
+  ul li{
+      width: 160px;
+  }
+  .pager{
+      padding: 0;
+  }
+  /* #backstyle{
+      opacity: 0.2;
+      color: darkslategray;
+  }  */
+  #lab{
+    width:600px;
+    height:325px;
+    background-color: darkslategray;
+    opacity: 0.6;
+    color: cyan;
+    border-top-left-radius: 30px; 
+    border-bottom-right-radius: 30px;
+    font-family: 'Jura', sans-serif;
+}
+  }
+  h2 #labtitle{
+      padding-left: 200px;
+      font-family: 'Jura', sans-serif;
+  }
+  #renaltitle{
+    padding-left: 200px;
+    font-family: 'Jura', sans-serif;
+}
+  #icutitle h2{
+    padding-left: 200px;
+    font-family: 'Jura', sans-serif;
+}
+  #pharmtitle{
+    padding-left: 200px;
+    font-family: 'Jura', sans-serif;
+}
+  #radtitle{
+    padding-left: 100px;
+    font-family: 'Jura', sans-serif;
+}
+    #fielmds{
+    width: 600px;
+    height: 30px;
+    background-color: gray;
+    color: cyan;
+    font-family: 'Jura', sans-serif;
+    padding-left: 20px;
+  }
+  #fields{
+      padding-left: 100px;
+  }
+  #fields1{
+      padding-left: 100px;
+  }
+  #fields2{
+      padding: 20px;
+  }
+  #fields3{
+      padding-left: 100px;
+  }
+  #fields4{
+      padding-left: 100px;
+  }
+  #fields5{
+      padding-left: 100px;
+  }
+  #renal{
+    width:600px;
+    height:400px;
+    background-color: darkslategray;
+    opacity: 0.8;
+    color: cyan;
+    border-top-left-radius: 30px; 
+    border-bottom-right-radius: 30px;  
+    font-family: 'Jura', sans-serif;
+  }
+  #radiology{
+    width:600px;
+    height:400px;
+    background-color: darkslategray;
+    opacity: 0.7;
+    color: cyan;
+    border-top-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    font-family: 'Jura', sans-serif;  
+
+  }
+  #icu{
+    width:600px;
+    height:450px;
+    background-color: darkslategray;
+    opacity: 0.7;
+    color: cyan;
+    border-top-left-radius: 30px; 
+    border-bottom-right-radius: 30px;  
+    font-family: 'Jura', sans-serif;   
+  }
+  #pharm{
+    width:600px;
+    height:150px;
+    background-color: darkslategray;
+    opacity: 0.7s;
+    color: cyan;
+    border-top-left-radius: 30px; 
+    border-bottom-right-radius: 30px;
+    font-family: 'Jura', sans-serif;   
+}  
+  }
+form #next{
+    text-decoration: none;
+}
+hr{
+    color: cyan;
 }
 
 .image1 {
@@ -53,10 +241,10 @@ body, #bdy{
   background-size: cover;
 }
 
-h2, #title{
+/* h3, #title{
   color: #00BFFF;
   font-size: 80px;
-}
+} */
 
 #uno {
   font-size: 30px;
@@ -83,4 +271,4 @@ h2, #title{
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
-}
+} */

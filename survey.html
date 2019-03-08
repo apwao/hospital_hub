@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>hh_survey</title>
+</head>
+
+<body class="bckimg" class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <h1>H H<i class="fa fa-stethoscope" style="color:aqua"></i>B</h1>
+        </div>
+        <div class="col-md-10">
+            <div></div>
+            <ul>
+                <li><a href="#index.html #home"><i class="fa fa-home" style="color: darkslategray"></i>HOME</a></li>
+                <li><a href="#index.html #about"><i class="fa fa-heartbeat" style="color: darkslategray"></i>ABOUT</a></li>
+                <li><a href="#index.html #contact"><i class="fa fa-phone" style="color: darkslategray"></i>CONTACT</a></li>
+                <li><a href="# index.html #mission"><i class="fa fa-eye" style="color: darkslategray"></i>MISSION</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-">
+
+        </div>
+        <form>
+            <div class="col-md-6" id="columns">
+                <!--<div class="backstyle">-->
+                    <div id="lab">
+                        <h2 id="fields">Laboratory</h2>
+                        <hr>
+                        <div class="form-check" id="fields">
+                            <input type="checkbox" class="form-check-input" id="hbcheck">
+                            <label class="form-check-label" for="hb">Haemoglobin</label>
+                        </div>
+                        <div class="form-check" id="fields">
+                            <input type="checkbox" class="form-check-input" id="gxmcheck">
+                            <label class="form-check-label" for="gxm">GXM</label>
+                        </div>
+                        <div class="form-check" id="fields">
+                            <input type="checkbox" class="form-check-input" id="bgccheck">
+                            <label class="form-check-label" for="bgc">Blood group & Cross-Matching</label>
+                        </div>
+                        <div class="form-check" id="fields">
+                            <input type="checkbox" class="form-check-input" id="fhcheck">
+                            <label class="form-check-label" for="fh">Full Haemogram</label>
+                        </div>
+                        <div class="form-check" id="fields">
+                            <input type="checkbox" class="form-check-input" id="hpycheck">
+                            <label class="form-check-label" for="hpy">H. Pylori</label>
+                        </div>
+                        <div class="form-check" id="fields">
+                            <input type="checkbox" class="form-check-input" id="rbscheck">
+                            <label class="form-check-label" for="rbs">RBS</label>
+                        </div>
+                        <div class="form-check" id="fields">
+                            <input type="checkbox" class="form-check-input" id="ulycheck">
+                            <label class="form-check-label" for="uly">Urinalysis & Urine Culture</label>
+                        </div>
+                    </div>
+                    <div id="renal">
+                        <h2 id="renaltitle">Renal Unit</h2>
+                        <hr>
+                        <div class="form-check" id="fields1">
+                            <input type="checkbox" class="form-check-input" id="dialysis">
+                            <label class="form-check-label" for="Dialysis">Dialysis Machine</label>
+                        </div>
+                        <div class="form-check" id="fields1">
+                            <input type="checkbox" class="form-check-input" id="oxygen">
+                            <label class="form-check-label" for="oxygen">Oxygen</label>
+                        </div>
+                        <br>
+                        <h3>Current bed capacity</h3>
+                        <div class="input-group" id="fields2">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-md-user"></i></span>
+                            <input type="number" class="form-control" name="bed-capacity" placeholder="Bed-Capacity" id="bcrenal">
+                        </div>
+                        <br>
+                        <div class="input-group" id="fields2">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-md-user"></i></span>
+                            <input type="name" class="form-control" name="a-physician"
+                                placeholder="Admitting Physician" id="ad_renal">
+                        </div>
+                    </div>
+                    <div id="radiology">
+                        <h2 id="radtitle">Radiology</h2>
+                        <hr>
+                        <div class="radio" id="fields3">
+                            <label>
+                                <input type="radio" name="facility_functional" value="0" required>
+                                Department present
+                            </label>
+                        </div>
+                        <div class="radio" id="fields3">
+                            <label>
+                                <input type="radio" name="facility_functional" value="0" required>
+                                Department absent
+                            </label>
+                        </div>
+                        <h3>Equipment status</h3>
+                        <hr>
+                        <div class="form-check" id="fields3">
+                            <input type="checkbox" class="form-check-input" id="ultrasound">
+                            <label class="form-check-label" for="ultrasound">Ultra Sound</label>
+                        </div>
+                        <div class="form-check" id="fields3">
+                            <input type="checkbox" class="form-check-input" id="xray">
+                            <label class="form-check-label" for="xray">X-Ray</label>
+                        </div>
+                        <div class="form-check" id="fields3">
+                            <input type="checkbox" class="form-check-input" id="ct">
+                            <label class="form-check-label" for="ct">CT-Scan</label>
+                        </div>
+                        <div class="form-check" id="fields3">
+                            <input type="checkbox" class="form-check-input" id="mri">
+                            <label class="form-check-label" for="mri">MRI</label>
+                        </div>
+                    </div>
+                    <div id="icu">
+                        <h2 id="fields4">Intensive Care Unit (ICU)</h2>
+                        <hr>
+                        <div class="radio" id="fields4">
+                            <label>
+                                <input type="radio" name="facility_present" value="Facility functional" required>
+                                Facility functional
+                            </label>
+                        </div>
+                        <div class="radio" id="fields4">
+                            <label>
+                                <input type="radio" name="facility_present" value="Facility non-functional" required>
+                                Facility non-functional
+                            </label>
+                        </div>
+                        <h3>Equipment Status</h3>
+                        <hr>
+                        <div class="form-check" id="fields4">
+                            <input type="checkbox" class="form-check-input" id="ventilator">
+                            <label class="form-check-label" for="Dialysis">Ventilator</label>
+                        </div>
+                        <div class="form-check" id="fields4">
+                            <input type="checkbox" class="form-check-input" id="ecg">
+                            <label class="form-check-label" for="oxygen">ECG</label>
+                        </div>
+                        <div class="input-group" id="fields2">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-md-bed"></i></span>
+                            <input type="number" class="form-control" name="bed-capacity"
+                                placeholder="Bed-Capacity" id="bcicu">
+                        </div>
+                        <div class="input-group" id="fields2">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-md-user"></i></span>
+                            <input type="name" class="form-control" name="a-physician"
+                                placeholder="Admitting Physician" id="ad_icu">
+                        </div>
+                    </div>
+                    <div id="pharm">
+                        <h2 id="pharmtitle">Pharmacy</h2>
+                        <hr>
+                        <div class="radio" id="fields5">
+                            <label>
+                                <input type="radio" name="dept_present" value="0" required>
+                                Well-stocked
+                            </label>
+                        </div>
+                        <div class="radio" id="fields5">
+                            <label>
+                                <input type="radio" name="dept_present" value="0" required>
+                                Partially-stocked
+                            </label>
+                        </div>
+                    </div>
+               <!-- </div>-->
+                <br>
+                <div class="row">
+                    <div class="col-md-10"></div>
+                    <div class="col-md-2">
+                        <button class="btn" id="next"><a href="#">Submit</a></button>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </form>
+    </body> 
+
+</html>

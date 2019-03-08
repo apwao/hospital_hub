@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/fonts" rel="stylesheets" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>hospital_hub</title>
+  </head>
+
+<body class="bckimg" class="container">
+    <nav>
+        <div></div>
+        <ul>
+            <li><a href="#"><i class="fa fa-home" style="color: darkslategray"></i>HOME</a></li>
+            <li><a href="#"><i class="fa fa-heartbeat" style="color: darkslategray"></i>ABOUT</a></li>
+            <li><a href="#"><i class="fa fa-phone" style="color: darkslategray"></i>CONTACT</a></li>
+            <li><a href="#"><i class="fa fa-eye" style="color: darkslategray"></i>MISSION</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div id="backstyle">
+            <div class="col-md-5" id="reg">
+                <div id="back">
+                    <h2>Register with us</h2>
+                    <hr>
+                    <form action = "/cgi-bin/test.cgi" name = "myForm" onsubmit = "return(validate());">
+                        <div class="input-group fields">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input type="name" class="form-control" name="hospitalName" placeholder="Hospital Name">
+                        </div>
+                        <br>
+                        <div class="input-group fields">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                            <input type="name" class="form-control" name="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                            <input type="name" class="form-control" name="emailAddress" placeholder="Email Address">
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input type="password" class="form-control" name="password"  value="" placeholder="Password">
+                        </div>
+                        <br>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
+                            <input type="name" class="form-control" name="hospitalLocation" placeholder="Location">
+                        </div>
+                        <br>
+                        <br>
+                        <button id="registerbtn" class="btn btn-secondary" type="submit"
+                            value="submit">Register</button>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js-register/jquery-3.3.1.js"></script>
+    <script src="js-register/scripts.js"></script>
+</body>
+</form>
+
+</html>
